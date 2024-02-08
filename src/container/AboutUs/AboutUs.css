@@ -31,9 +31,12 @@
 .app__aboutus-content_knife {
     margin: 2rem 4rem;
 }
+.about_knife{
+    object-fit: cover;
+}
 
 .app__aboutus-content_knife img {
-    height: 910px;
+    height: 760px;
 }
 
 .app__aboutus-content_history {

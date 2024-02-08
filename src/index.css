@@ -28,6 +28,10 @@ a {
   -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+.app__aboutus-content_knife img{
+  padding: 50px;
+  animation: animate-bounce 2s infinite alternate;
+}
 
 @-webkit-keyframes slide-bottom {
   0% {
@@ -48,5 +52,13 @@ a {
   100% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
+  }
+}
+@keyframes animate-bounce{
+  0%{
+    transform: translateY(5%);
+  }
+  100%{
+    transform: translateY(-5%);
   }
 }
